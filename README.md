@@ -1,0 +1,1 @@
+# Install-Kubernetes-with-adm-on-ubuntu-18-04-linkix-machine
