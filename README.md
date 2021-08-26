@@ -121,7 +121,24 @@ kubeadm token create --print-join-command
 kubectl get nodes
 ```
 
+
+
+### Access your cluster from your local machine
+##### Download Kubernetes Credentials From Remote Cluster
+
+```
+scp -r ubuntu@<virtual machine pulbic ip>:/home/ubuntu/.kube .
+```
+##### Copy Kubernetes Credentials To Your Home
+```
+cp -r .kube $HOME/
+```
+
+get nodes
+
+```
+kubectl get nodes
+```
+
 Have Fun !!
-
-
 
