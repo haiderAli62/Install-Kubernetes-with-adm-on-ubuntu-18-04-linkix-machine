@@ -85,7 +85,7 @@ sudo systemctl restart docker
 To initialize the control-plane node run:  
 
 ```
-kubeadm init <args>
+kubeadm init  kubeadm init --apiserver-cert-extra-sans=<virtual machine public ip>  <args>
 
 ```
 To make kubectl work for your non-root user, run these commands, which are also part of the kubeadm init output:  
