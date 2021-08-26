@@ -134,7 +134,7 @@ scp -r ubuntu@<virtual machine pulbic ip>:/home/ubuntu/.kube .
 cp -r .kube $HOME/
 ```
 
-get nodes
+##### get nodes
 
 ```
 kubectl get nodes
