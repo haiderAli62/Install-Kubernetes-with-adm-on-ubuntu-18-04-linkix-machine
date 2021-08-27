@@ -1,4 +1,4 @@
-# Install-Kubernetes-with-adm-on-ubuntu-18-04-linkix-machine
+# Install-Kubernetes-with-adm-on-ubuntu-18-04-linix-machine
 
 ### Requirements 
 2 GB or more of RAM per machine (any less will leave little room for your apps).  
