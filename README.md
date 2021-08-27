@@ -101,6 +101,14 @@ Deploy Calico network
 kubectl --kubeconfig=/etc/kubernetes/admin.conf create -f https://docs.projectcalico.org/v3.14/manifests/calico.yaml
 ```
 
+OR 
+
+Do this 
+ ```
+ curl https://docs.projectcalico.org/manifests/calico.yaml -O
+ kubectl apply -f calico.yaml
+```
+
 ##### Get Kubeadm join command 
 ```
 kubeadm token create --print-join-command
