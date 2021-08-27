@@ -127,7 +127,7 @@ kubectl get nodes
 ##### Download Kubernetes Credentials From Remote Cluster
 
 ```
-scp -r ubuntu@<virtual machine pulbic ip>:/home/ubuntu/.kube .
+scp -i <ssh key> -r ubuntu@<virtual machine pulbic ip>:/home/ubuntu/.kube .
 ```
 ##### Copy Kubernetes Credentials To Your Home
 ```
